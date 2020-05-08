@@ -1,0 +1,19 @@
+<style>
+video {
+  display: block;
+  width: 1000px;
+  height: calc(1000px * calc(9 / 16));
+}
+</style>
+<video id="video" controls autoplay width="1000px" height="562.5px">
+  <source src="https://player.vimeo.com/external/194837908.sd.mp4?s=c350076905b78c67f74d7ee39fdb4fef01d12420&profile_id=164" width="1000px" height="562.5px"></source>
+</video>
+<div style="position: fixed; top: 0; left: 0;">
+<button onClick="p()">-1</button>
+<button onClick="n()">+1</button>
+</div>
+
+<p style="background: red; color: black; position: fixed; top: 50px; left: 0;" id="text"></p>
+<canvas id="canvas" width="1000px" height="562.5px"></canvas>
+<script src="./script.js"></script>
+

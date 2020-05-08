@@ -1,0 +1,11 @@
+{
+  "name": "generate-image-from-worker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "ssh://git@github.com/konojunya/generate-image-from-worker.git",
+  "author": "konojunya <junya03dance@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "prettier": "^2.0.5"
+  }
+}
